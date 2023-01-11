@@ -1,10 +1,12 @@
+require('dotenv').config()
+
 exports.config = {
   output: './output',
   helpers: {
     REST: {
       endpoint: 'https://api.yelp.com/v3',
       defaultHeaders: {
-        'Authorization': 'Bearer r6dGmxHCH2cd4TxeEB_KDDP1ZcGKIxvZEEZ1Y07ZTj1JZosjMwAWnBj80WW-q_NzcitoIgrlCMV-pXllKa5LAd_Aw2vEo11rApe8u_r_kmuVgKksykgqZoEIU6fQYnYx',
+        'Authorization': `Bearer ${process.env.API_SECRET_KEY}`,
         'Content-Type': 'application/json',
         'Accept': 'application/json'
       }
