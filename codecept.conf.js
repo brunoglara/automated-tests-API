@@ -12,7 +12,6 @@ exports.config = {
     JSONResponse: {}
   },
   include: {
-    I: './steps_file.js'
   },
   mocha: {},
   bootstrap: null,
