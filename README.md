@@ -29,30 +29,38 @@ This API Contains information about world business like:
  <a href="https://codecept.io/">
   <img align="center" alt="CodeceptJS" height="50" width="60" src="https://www.svgrepo.com/show/330181/codeceptjs.svg" />
  </a>
- <a href="https://cucumber.io/">
+ <a href="https://cucumber.io/" target="_blank">
   <img align="center" alt="Cucumber" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cucumber/cucumber-plain-wordmark.svg" />
  </a>
- <a href="https://www.selenium.dev/documentation/webdriver/">
-  <img align="center" alt="Selenium" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" />
- </a>
-</div>
+
 
  <br/>
  
 ## Requirements
- * Node v18 installed
- * NPM v8
+ * [Node](https://nodejs.org/en/) v18 installed
+ * [NPM](https://www.npmjs.com/) v8
+ * [Git](https://git-scm.com/)
  * Yelp account created ([Sign Up for Yelp](https://www.yelp.com/signup))
-   After creating the account, you need  
  
  <br/>
  
 ## Running
+* First step, you need to clone this repository. How to cloning a repository [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+* In the project's folder, execute:
 
-* get the API Key
+ ```
+ npm install
+ ```
+
+* Copy the key contained in your Yelp account, you find in this [link](https://www.yelp.com/developers/v3/manage_app)
+ <img src="/screenshots/yelp_key.PNG" alt="Yelp KEY" />
+
+* Paste your key on file called .env.example after variable "API_SECRET_KEY"
+ <img src="/screenshots/env_file.png" alt="Yelp KEY" />
  
-
+* Change the file name from ".env.example" to ".env"
+  
  <br/>
 
-## Applied Tests
+## Tested scenarios
 Using the endpoint: 
