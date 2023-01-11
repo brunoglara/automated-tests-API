@@ -1,4 +1,9 @@
-Feature: Business
+Feature: Yelp Business API
+
+  As
+  I want
+  So that
+
 
   Scenario Outline: Search business by location
     Given I want to list business by location <city>

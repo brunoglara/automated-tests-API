@@ -153,7 +153,7 @@ Then('I should get a business by searched id', () => {
         {
           url: Joi.string(),
           use_case_text: Joi.string(),
-        }
+        },
       )
     }
   )
