@@ -14,7 +14,7 @@ This API Contains information about world business like:
  * ...access the [documentation](https://docs.developer.yelp.com/docs/fusion-intro)
  
 
-   <img src="/screenshots/festure.png" alt="Feature" align="center"/><br>
+   <img src="/screenshots/feature.png" alt="Feature" align="center"/><br>
  
    
  
