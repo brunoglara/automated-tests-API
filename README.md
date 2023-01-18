@@ -79,6 +79,14 @@ This API Contains information about world business like:
 * Change the file name from ".env.example" to ".env"
   
  <br/>
+ 
+ * In the project's folder, execute:
+
+ ```
+ npx codeceptjs run
+ ```
+ 
+ <br/>
 
 ## Tested scenarios
 
